@@ -19,7 +19,7 @@ public class InfoReader {
         } catch (FileNotFoundException e) {
             logger.log(Level.ERROR, "File was not found", e);
         }
-        line =line.trim();
+        line = line.trim();
         String[] stringOfTokens = line.split(REGEX_DELIMITER);
         return stringOfTokens;
     }
