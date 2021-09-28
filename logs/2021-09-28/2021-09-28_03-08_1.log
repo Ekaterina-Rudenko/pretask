@@ -1,0 +1,113 @@
+2021-09-27 01:31:16 [main] INFO  by.epam.pretask.log4j2.LogMain - first log prg
+2021-09-27 01:31:17 [main] WARN  by.epam.pretask.log4j2.LogMain - Warning ! Loggers !
+2021-09-27 01:31:17 [main] ERROR by.epam.pretask.log4j2.LogMain - first runtime
+java.lang.RuntimeException: Exception 1
+	at by.epam.pretask.log4j2.LogMain.main(LogMain.java:14) [pretask/:?]
+2021-09-28 00:42:55 [main] INFO  by.epam.pretask.main.Main - The number1 is 
+2021-09-28 00:42:55 [main] INFO  by.epam.pretask.main.Main - The number2 is 
+2021-09-28 00:42:55 [main] INFO  by.epam.pretask.service.Service - The sum of numbers is 
+2021-09-28 00:42:55 [main] INFO  by.epam.pretask.service.Service - The product of numbers is 
+2021-09-28 00:42:55 [main] INFO  by.epam.pretask.service.Service - The difference of numbers is 
+2021-09-28 00:42:55 [main] INFO  by.epam.pretask.service.Service - The quotient of numbers is 
+2021-09-28 00:43:39 [main] INFO  by.epam.pretask.main.Main - The number1 is 
+2021-09-28 00:43:39 [main] INFO  by.epam.pretask.main.Main - The number2 is 
+2021-09-28 00:43:39 [main] INFO  by.epam.pretask.service.Service - The sum of numbers is 
+2021-09-28 00:43:39 [main] INFO  by.epam.pretask.service.Service - The product of numbers is 
+2021-09-28 00:43:39 [main] INFO  by.epam.pretask.service.Service - The difference of numbers is 
+2021-09-28 00:43:39 [main] INFO  by.epam.pretask.service.Service - The quotient of numbers is 
+2021-09-28 00:46:53 [main] INFO  by.epam.pretask.main.Main - The number1 is 
+2021-09-28 00:46:53 [main] INFO  by.epam.pretask.main.Main - The number2 is 
+2021-09-28 00:46:53 [main] INFO  by.epam.pretask.service.Service - The sum of numbers is 
+2021-09-28 00:46:53 [main] INFO  by.epam.pretask.service.Service - The product of numbers is 
+2021-09-28 00:46:53 [main] INFO  by.epam.pretask.service.Service - The difference of numbers is 
+2021-09-28 00:46:53 [main] INFO  by.epam.pretask.service.Service - The quotient of numbers is 
+2021-09-28 01:43:36 [main] INFO  by.epam.pretask.main.Main - The number1 is 
+2021-09-28 01:43:36 [main] INFO  by.epam.pretask.main.Main - The number2 is 
+2021-09-28 01:43:36 [main] INFO  by.epam.pretask.service.Service - The sum of numbers is 
+2021-09-28 01:43:36 [main] INFO  by.epam.pretask.service.Service - The product of numbers is 
+2021-09-28 01:43:36 [main] INFO  by.epam.pretask.service.Service - The difference of numbers is 
+2021-09-28 01:43:36 [main] INFO  by.epam.pretask.service.Service - The quotient of numbers is 
+2021-09-28 01:45:32 [main] INFO  by.epam.pretask.main.Main - The number1 is 
+2021-09-28 01:45:32 [main] INFO  by.epam.pretask.main.Main - The number2 is 
+2021-09-28 01:45:32 [main] INFO  by.epam.pretask.service.Service - The sum of numbers is 
+2021-09-28 01:45:32 [main] INFO  by.epam.pretask.service.Service - -22.200000000000003
+2021-09-28 01:45:32 [main] INFO  by.epam.pretask.service.Service - The difference of numbers is 
+2021-09-28 01:45:32 [main] INFO  by.epam.pretask.service.Service - The quotient of numbers is 
+2021-09-28 01:49:33 [main] INFO  by.epam.pretask.main.Main - The number1 is 
+2021-09-28 01:49:33 [main] INFO  by.epam.pretask.main.Main - The number2 is 
+2021-09-28 01:49:33 [main] INFO  by.epam.pretask.service.Service - The sum of numbers is 91.2
+2021-09-28 01:49:33 [main] INFO  by.epam.pretask.service.Service - The product of 2 numbers is -22.200000000000003
+2021-09-28 01:49:33 [main] INFO  by.epam.pretask.service.Service - The difference of numbers is -22.200000000000003
+2021-09-28 01:49:33 [main] INFO  by.epam.pretask.service.Service - The quotient of numbers is -22.200000000000003
+2021-09-28 01:50:08 [main] INFO  by.epam.pretask.main.Main - The number1 is by.epam.pretask.entity.CustomNumber@2a54a73f
+2021-09-28 01:50:08 [main] INFO  by.epam.pretask.main.Main - The number2 is by.epam.pretask.entity.CustomNumber@a530d0a
+2021-09-28 01:50:08 [main] INFO  by.epam.pretask.service.Service - The sum of numbers is 91.2
+2021-09-28 01:50:08 [main] INFO  by.epam.pretask.service.Service - The product of 2 numbers is -22.200000000000003
+2021-09-28 01:50:08 [main] INFO  by.epam.pretask.service.Service - The difference of numbers is -22.200000000000003
+2021-09-28 01:50:08 [main] INFO  by.epam.pretask.service.Service - The quotient of numbers is -22.200000000000003
+2021-09-28 01:56:35 [main] INFO  by.epam.pretask.main.Main - The number1 is number = 34.5
+2021-09-28 01:56:35 [main] INFO  by.epam.pretask.main.Main - The number2 is number = 56.7
+2021-09-28 01:56:35 [main] INFO  by.epam.pretask.service.Service - The sum of numbers is 91.2
+2021-09-28 01:56:35 [main] INFO  by.epam.pretask.service.Service - The product of 2 numbers is -22.200000000000003
+2021-09-28 01:56:35 [main] INFO  by.epam.pretask.service.Service - The difference of numbers is -22.200000000000003
+2021-09-28 01:56:35 [main] INFO  by.epam.pretask.service.Service - The quotient of numbers is -22.200000000000003
+2021-09-28 01:57:17 [main] INFO  by.epam.pretask.main.Main - The number1  = 34.5
+2021-09-28 01:57:17 [main] INFO  by.epam.pretask.main.Main - The number2  = 56.7
+2021-09-28 01:57:17 [main] INFO  by.epam.pretask.service.Service - The sum of numbers is 91.2
+2021-09-28 01:57:17 [main] INFO  by.epam.pretask.service.Service - The product of 2 numbers is -22.200000000000003
+2021-09-28 01:57:17 [main] INFO  by.epam.pretask.service.Service - The difference of numbers is -22.200000000000003
+2021-09-28 01:57:17 [main] INFO  by.epam.pretask.service.Service - The quotient of numbers is -22.200000000000003
+2021-09-28 01:57:28 [main] INFO  by.epam.pretask.main.Main - The number1 = 34.5
+2021-09-28 01:57:28 [main] INFO  by.epam.pretask.main.Main - The number2 = 56.7
+2021-09-28 01:57:28 [main] INFO  by.epam.pretask.service.Service - The sum of numbers is 91.2
+2021-09-28 01:57:28 [main] INFO  by.epam.pretask.service.Service - The product of 2 numbers is -22.200000000000003
+2021-09-28 01:57:28 [main] INFO  by.epam.pretask.service.Service - The difference of numbers is -22.200000000000003
+2021-09-28 01:57:28 [main] INFO  by.epam.pretask.service.Service - The quotient of numbers is -22.200000000000003
+2021-09-28 01:58:13 [main] INFO  by.epam.pretask.main.Main - The number1 = 34.5
+2021-09-28 01:58:13 [main] INFO  by.epam.pretask.main.Main - The number2 = 56.7
+2021-09-28 01:58:13 [main] INFO  by.epam.pretask.service.Service - The sum of numbers is 91.2
+2021-09-28 01:58:13 [main] INFO  by.epam.pretask.service.Service - The product of 2 numbers is 1956.15
+2021-09-28 01:58:13 [main] INFO  by.epam.pretask.service.Service - The difference of numbers is -22.200000000000003
+2021-09-28 01:58:13 [main] INFO  by.epam.pretask.service.Service - The quotient of numbers is 0.6084656084656085
+2021-09-28 02:52:29 [main] INFO  by.epam.pretask.main.Main - The number1 = 34.5
+2021-09-28 02:52:29 [main] INFO  by.epam.pretask.main.Main - The number2 = 56.7
+2021-09-28 02:52:29 [main] INFO  by.epam.pretask.service.Service - The sum of numbers is 91.2
+2021-09-28 02:52:29 [main] INFO  by.epam.pretask.service.Service - The product of 2 numbers is 1956.15
+2021-09-28 02:52:29 [main] INFO  by.epam.pretask.service.Service - The difference of numbers is -22.200000000000003
+2021-09-28 02:52:29 [main] INFO  by.epam.pretask.service.Service - The quotient of numbers is 0.6084656084656085
+2021-09-28 03:06:18 [main] ERROR by.epam.pretask.reader.InfoReader - File was not found
+java.io.FileNotFoundException: data\noFile.txt (Не удается найти указанный файл)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:211) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:153) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:108) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at by.epam.pretask.reader.InfoReader.readLineFromFile(InfoReader.java:17) ~[pretask/:?]
+	at by.epam.pretask.reader.InfoReaderTest.testInfoReaderException(InfoReaderTest.java:15) ~[pretask/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.4.0.jar:7.4.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:794) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestRunner.run(TestRunner.java:596) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1063) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.run(TestNG.java:1031) [testng-7.4.0.jar:7.4.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) [testng-rt.jar:?]
