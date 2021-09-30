@@ -15,7 +15,7 @@ public class InfoReader {
     public String[] readLineFromFile(String fileName) {
         String line = "";
         try (Scanner scanner = new Scanner(new FileReader(fileName))) {
-            line = scanner.nextLine();
+                line = scanner.nextLine();
         } catch (FileNotFoundException e) {
             logger.log(Level.ERROR, "File was not found", e);
         }
