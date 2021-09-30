@@ -14,6 +14,7 @@ public class InfoReaderTest {
         InfoReader infoReader = new InfoReader();
         String[] actual = infoReader.readLineFromFile(fileName);
         String[] expected = {"skldjfh","sdlg","456","-234"};
+
     }
 
     @Test(enabled = false, expectedExceptions = FileNotFoundException.class)
