@@ -1,12 +1,12 @@
-2021-09-28 03:08:47 [main] ERROR by.epam.pretask.reader.InfoReader - File was not found
+2021-09-28 03:08:47 [main] ERROR by.epam.pretask.reader.InfoReaderImpl - File was not found
 java.io.FileNotFoundException: data\noFile.txt (Не удается найти указанный файл)
 	at java.io.FileInputStream.open0(Native Method) ~[?:?]
 	at java.io.FileInputStream.open(FileInputStream.java:211) ~[?:?]
 	at java.io.FileInputStream.<init>(FileInputStream.java:153) ~[?:?]
 	at java.io.FileInputStream.<init>(FileInputStream.java:108) ~[?:?]
 	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
-	at by.epam.pretask.reader.InfoReader.readLineFromFile(InfoReader.java:17) ~[pretask/:?]
-	at by.epam.pretask.reader.InfoReaderTest.testInfoReaderException(InfoReaderTest.java:16) ~[pretask/:?]
+	at by.epam.pretask.reader.InfoReaderImpl.readLineFromFile(InfoReader.java:17) ~[pretask/:?]
+	at by.epam.pretask.reader.InfoReaderImplTest.testInfoReaderException(InfoReaderTest.java:16) ~[pretask/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
@@ -34,20 +34,111 @@ java.io.FileNotFoundException: data\noFile.txt (Не удается найти �
 	at org.testng.TestNG.run(TestNG.java:1031) [testng-7.4.0.jar:7.4.0]
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) [testng-rt.jar:?]
-2021-09-28 03:23:46 [main] INFO  by.epam.pretask.service.Service - The sum of numbers is 17.8
-2021-09-28 03:24:12 [main] INFO  by.epam.pretask.service.Service - The sum of numbers is 17.8
-2021-09-28 03:27:24 [main] INFO  by.epam.pretask.service.Service - The sum of numbers is 17.8
-2021-09-28 03:28:06 [main] INFO  by.epam.pretask.service.Service - The sum of numbers is 17.8
-2021-09-28 03:28:16 [main] INFO  by.epam.pretask.service.Service - The sum of numbers is 17.8
-2021-09-28 03:28:47 [main] INFO  by.epam.pretask.service.Service - The sum of numbers is 17.8
-2021-09-28 03:28:47 [main] INFO  by.epam.pretask.service.Service - The quotient of numbers is 2.358490566037736
-2021-09-28 03:28:47 [main] INFO  by.epam.pretask.service.Service - The product of 2 numbers is 0.0
-2021-09-28 03:28:47 [main] INFO  by.epam.pretask.service.Service - The difference of numbers is 7.2
-2021-09-28 03:29:37 [main] INFO  by.epam.pretask.service.Service - The sum of numbers is 17.8
-2021-09-28 03:29:37 [main] INFO  by.epam.pretask.service.Service - The quotient of numbers is Infinity
-2021-09-28 03:29:37 [main] INFO  by.epam.pretask.service.Service - The product of 2 numbers is 0.0
-2021-09-28 03:29:37 [main] INFO  by.epam.pretask.service.Service - The difference of numbers is 7.2
-2021-09-28 03:30:27 [main] INFO  by.epam.pretask.service.Service - The sum of numbers is 17.8
-2021-09-28 03:30:27 [main] INFO  by.epam.pretask.service.Service - The quotient of numbers is Infinity
-2021-09-28 03:30:27 [main] INFO  by.epam.pretask.service.Service - The product of 2 numbers is 0.0
-2021-09-28 03:30:27 [main] INFO  by.epam.pretask.service.Service - The difference of numbers is 7.2
+2021-09-28 03:23:46 [main] INFO  ServiceImpl - The sum of numbers is 17.8
+2021-09-28 03:24:12 [main] INFO  ServiceImpl - The sum of numbers is 17.8
+2021-09-28 03:27:24 [main] INFO  ServiceImpl - The sum of numbers is 17.8
+2021-09-28 03:28:06 [main] INFO  ServiceImpl - The sum of numbers is 17.8
+2021-09-28 03:28:16 [main] INFO  ServiceImpl - The sum of numbers is 17.8
+2021-09-28 03:28:47 [main] INFO  ServiceImpl - The sum of numbers is 17.8
+2021-09-28 03:28:47 [main] INFO  ServiceImpl - The quotient of numbers is 2.358490566037736
+2021-09-28 03:28:47 [main] INFO  ServiceImpl - The product of 2 numbers is 0.0
+2021-09-28 03:28:47 [main] INFO  ServiceImpl - The difference of numbers is 7.2
+2021-09-28 03:29:37 [main] INFO  ServiceImpl - The sum of numbers is 17.8
+2021-09-28 03:29:37 [main] INFO  ServiceImpl - The quotient of numbers is Infinity
+2021-09-28 03:29:37 [main] INFO  ServiceImpl - The product of 2 numbers is 0.0
+2021-09-28 03:29:37 [main] INFO  ServiceImpl - The difference of numbers is 7.2
+2021-09-28 03:30:27 [main] INFO  ServiceImpl - The sum of numbers is 17.8
+2021-09-28 03:30:27 [main] INFO  ServiceImpl - The quotient of numbers is Infinity
+2021-09-28 03:30:27 [main] INFO  ServiceImpl - The product of 2 numbers is 0.0
+2021-09-28 03:30:27 [main] INFO  ServiceImpl - The difference of numbers is 7.2
+2021-09-30 23:19:36 [main] INFO  by.epam.pretask.main.Main - The number1 = 34.5
+2021-09-30 23:19:36 [main] INFO  by.epam.pretask.main.Main - The number2 = 56.7
+2021-09-30 23:19:36 [main] INFO  epam.pretask.service.impl.CalculationServiceImpl - The sum of numbers is  = 91.2
+2021-09-30 23:19:36 [main] INFO  epam.pretask.service.impl.CalculationServiceImpl - The product of 2 numbers is  = 1956.15
+2021-09-30 23:19:36 [main] INFO  epam.pretask.service.impl.CalculationServiceImpl - The difference of numbers is  = -22.200000000000003
+2021-09-30 23:19:36 [main] INFO  epam.pretask.service.impl.CalculationServiceImpl - The quotient of numbers is  = 0.6084656084656085
+2021-09-30 23:31:07 [main] INFO  by.epam.pretask.main.Main - The number1 = 34.5
+2021-09-30 23:31:07 [main] INFO  by.epam.pretask.main.Main - The number2 = 56.7
+2021-09-30 23:31:07 [main] INFO  epam.pretask.service.impl.CalculationServiceImpl - The sum of numbers is  = 91.2
+2021-09-30 23:31:07 [main] INFO  epam.pretask.service.impl.CalculationServiceImpl - The product of 2 numbers is  = 1956.15
+2021-09-30 23:31:07 [main] INFO  epam.pretask.service.impl.CalculationServiceImpl - The difference of numbers is  = -22.200000000000003
+2021-09-30 23:31:07 [main] INFO  epam.pretask.service.impl.CalculationServiceImpl - The quotient of numbers is  = 0.6084656084656085
+2021-10-01 00:06:23 [main] INFO  epam.pretask.service.impl.CalculationServiceImpl - The sum of numbers is  = 17.8
+2021-10-01 00:19:40 [main] INFO  by.epam.pretask.main.Main - The number1 = 34.5
+2021-10-01 00:19:40 [main] INFO  by.epam.pretask.main.Main - The number2 = 56.7
+2021-10-01 00:19:40 [main] INFO  epam.pretask.service.impl.CalculationServiceImpl - The sum of numbers is  = 91.2
+2021-10-01 00:19:40 [main] INFO  epam.pretask.service.impl.CalculationServiceImpl - The product of 2 numbers is  = 1956.15
+2021-10-01 00:19:40 [main] INFO  epam.pretask.service.impl.CalculationServiceImpl - The difference of numbers is  = -22.200000000000003
+2021-10-01 00:19:40 [main] INFO  epam.pretask.service.impl.CalculationServiceImpl - The quotient of numbers is  = 0.6084656084656085
+2021-10-01 00:24:02 [main] ERROR epam.pretask.reader.impl.InfoReaderImpl - File was not found
+java.io.FileNotFoundException: data\noFile.txt (Не удается найти указанный файл)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:211) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:153) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:108) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at by.epam.pretask.reader.impl.InfoReaderImpl.readLine(InfoReaderImpl.java:19) ~[pretask/:?]
+	at by.epam.pretask.reader.InfoReaderImplTest.testInfoReaderException(InfoReaderImplTest.java:26) ~[pretask/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.4.0.jar:7.4.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:794) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestRunner.run(TestRunner.java:596) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1063) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.run(TestNG.java:1031) [testng-7.4.0.jar:7.4.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) [testng-rt.jar:?]
+2021-10-01 00:25:51 [main] ERROR epam.pretask.reader.impl.InfoReaderImpl - File was not found
+java.io.FileNotFoundException: data\noFile.txt (Не удается найти указанный файл)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:211) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:153) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:108) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at by.epam.pretask.reader.impl.InfoReaderImpl.readLine(InfoReaderImpl.java:19) ~[pretask/:?]
+	at by.epam.pretask.reader.InfoReaderImplTest.testInfoReaderException(InfoReaderImplTest.java:26) ~[pretask/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.4.0.jar:7.4.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:794) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestRunner.run(TestRunner.java:596) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1063) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.run(TestNG.java:1031) [testng-7.4.0.jar:7.4.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) [testng-rt.jar:?]
