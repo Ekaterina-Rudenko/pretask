@@ -255,3 +255,20 @@ java.io.FileNotFoundException: data\noFile.txt (Не удается найти �
 	at org.testng.TestNG.run(TestNG.java:1031) [testng-7.4.0.jar:7.4.0]
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) [testng-rt.jar:?]
+2021-10-01 00:53:48 [main] INFO  by.epam.pretask.main.Main - The number1 = 34.5
+2021-10-01 00:53:48 [main] INFO  by.epam.pretask.main.Main - The number2 = 56.7
+2021-10-01 00:53:48 [main] INFO  epam.pretask.service.impl.CalculationServiceImpl - The sum of numbers is  = 91.2
+2021-10-01 00:53:48 [main] INFO  epam.pretask.service.impl.CalculationServiceImpl - The product of 2 numbers is  = 1956.15
+2021-10-01 00:53:48 [main] INFO  epam.pretask.service.impl.CalculationServiceImpl - The difference of numbers is  = -22.200000000000003
+2021-10-01 00:53:48 [main] INFO  epam.pretask.service.impl.CalculationServiceImpl - The quotient of numbers is  = 0.6084656084656085
+2021-10-01 00:58:16 [main] ERROR epam.pretask.parser.impl.StringToDoubleImpl - Not enough elements
+2021-10-01 00:59:17 [main] INFO  by.epam.pretask.main.Main - The number1 = 34.5
+2021-10-01 00:59:17 [main] INFO  by.epam.pretask.main.Main - The number2 = 56.3
+2021-10-01 00:59:17 [main] INFO  epam.pretask.service.impl.CalculationServiceImpl - The sum of numbers is  = 90.8
+2021-10-01 00:59:17 [main] INFO  epam.pretask.service.impl.CalculationServiceImpl - The product of 2 numbers is  = 1942.35
+2021-10-01 00:59:17 [main] INFO  epam.pretask.service.impl.CalculationServiceImpl - The difference of numbers is  = -21.799999999999997
+2021-10-01 00:59:17 [main] INFO  epam.pretask.service.impl.CalculationServiceImpl - The quotient of numbers is  = 0.6127886323268207
+2021-10-01 01:16:16 [main] INFO  epam.pretask.service.impl.CalculationServiceImpl - The sum of numbers is  = 17.8
+2021-10-01 01:16:16 [main] INFO  epam.pretask.service.impl.CalculationServiceImpl - The quotient of numbers is  = Infinity
+2021-10-01 01:16:16 [main] INFO  epam.pretask.service.impl.CalculationServiceImpl - The product of 2 numbers is  = 0.0
+2021-10-01 01:16:16 [main] INFO  epam.pretask.service.impl.CalculationServiceImpl - The difference of numbers is  = 7.2
