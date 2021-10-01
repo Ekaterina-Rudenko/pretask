@@ -4,6 +4,7 @@ import by.epam.pretask.creator.NumberCreator;
 import by.epam.pretask.entity.CustomNumber;
 
 public class NumberCreatorImpl implements NumberCreator {
+    @Override
     public CustomNumber createNumber(double number) {
         return new CustomNumber(number);
     }
