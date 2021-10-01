@@ -13,7 +13,7 @@ public class InfoReaderImpl implements InfoReader {
 
     static Logger logger = LogManager.getLogger();
     public static final String REGEX_DELIMITER = "\\s+";
-
+    @Override
     public String readLine(String fileName) throws CustomException {
         String line = "";
         try (Scanner scanner = new Scanner(new FileReader(fileName))) {
